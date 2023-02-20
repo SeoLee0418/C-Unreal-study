@@ -15,7 +15,9 @@ AMovingPlatform::AMovingPlatform()
 void AMovingPlatform::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+	MyVector.X = MyX;
+
 }
 
 // Called every frame
